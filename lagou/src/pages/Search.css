@@ -1,0 +1,138 @@
+.linputer {
+    position: relative;
+    border-bottom: 1px solid #e8e8e8;
+    height: 45px;
+}
+/*隐藏*/
+.out{display: none;}
+/*                选择按钮*/
+.fadin{
+	display: block;
+}
+.left1{
+	height: 0.45rem;
+	margin-top:-0.42rem;
+	margin-left:0.13rem;
+}
+.return1{
+	text-align: left;
+    width: 9px;
+    height: 20px;
+    margin: 13px auto 0 auto;
+    background: url(https://www.lgstatic.com/images/mobile/asset/common/img/icon2.png) no-repeat -1.5px -20.5px;
+    background-size: 2.5rem 2.5rem;
+    display: inline-block;
+}
+.lbutton {
+	display: block;
+    float: left;
+    height: 45px;
+    line-height: 45px;
+    font-size: 0.15rem;
+    text-align: center;
+    width: 88px;
+    border-right: 1px solid #e8e8e8;
+}
+.lbutton2 {
+    float: left;
+    height: 45px;
+    line-height: 45px;
+    font-size: 0.15rem;
+    text-align: center;
+    width: 88px;
+    border-right: 1px solid #e8e8e8;
+    /*background: #CCC;*/
+}
+.rinput {
+    height: 45px;
+    margin-left: 89px;
+    position: relative;
+}
+.rinput .inputer {
+    display: block;
+    border: none;
+    outline: none;
+    padding: 10px 0;
+    height: 25px;
+    line-height: 25px;
+    color: #333;
+    width: 75%;
+    margin: 0 0 0 5%;
+    font-size: 0.15rem;
+    float: left;
+}
+.rinput .search {
+    display: inline-block;
+    width: 20%;
+    height: 45px;
+    line-height: 45px;
+    float: right;
+    position: relative;
+}
+.rinput .search .searchicon {
+    display: block;
+    margin: 14px auto 0 auto;
+    width: 17px;
+    height: 17px;
+    background: url(https://www.lgstatic.com/images/mobile/asset/common/img/icon.png) no-repeat -14px -2.5px;
+    background-size: 250px 250px;
+}
+.lbutton .cityicon {
+	display:inline-block;
+	margin-left: 2px;
+    width: 8.5px;
+    height: 7px;
+    background: url(https://www.lgstatic.com/images/mobile/asset/common/img/icon.png) no-repeat -1px -2.5px;
+    background-size: 250px 250px;
+}
+.history{
+	width:100%;
+	font-size:0.15rem ;
+}
+.history .history-item {
+    height: 0.45rem;
+    line-height: 0.45rem;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 0 0 0 0.23rem;
+}
+
+.citynames{
+	float: left;
+	height: 60px;
+	width: 33.3%;
+    line-height: 60px;
+    text-align: center;
+    font-size: 0.15rem;
+    color: #333;
+    min-width: 100px;
+}
+.citynames2{
+	float: left;
+	height: 60px;
+	width: 33.3%;
+    line-height: 60px;
+    text-align: center;
+    font-size: 0.15rem;
+    color: #333;
+    min-width: 100px;
+    background: #E7F3F0;
+}
+.ciy{
+	display: none;
+}
+.ciy2{
+	display: block;
+}
+.city_box{
+	width:100%;
+	overflow: hidden;
+	border-bottom: 1px solid #e8e8e8 ;
+}
+.cities-header {
+    border-bottom: 1px solid #e8e8e8;
+    height: 0.25rem;
+    line-height: 0.25rem;
+    padding: 0 15px;
+    font-size: 0.12rem;
+    color: #888;
+}
